@@ -22,4 +22,11 @@ export const defaultHabits: Habit[] = [
         startDate: "2025-06-01",
         logs: ["2025-06-05", "2025-07-03"],
     },
+    {
+        id: "4",
+        name: "Read a Book",
+        frequency: "Weekly",
+        startDate: "2025-07-20",
+        logs: ["2025-07-23", "2025-08-01", "2025-08-04"],
+    },
 ];

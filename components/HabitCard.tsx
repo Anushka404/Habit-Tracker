@@ -16,7 +16,7 @@ interface HabitCardProps {
 
 const HabitCard: React.FC<HabitCardProps> = ({ habit }) => {
     const { logHabit } = useHabit();
-    const [weekOffset, setWeekOffset] = useState(0); // 0 for current week, -1: last, +1: next
+    const [weekOffset, setWeekOffset] = useState(0); // 0: current week, -1: last, +1: next
 
     const today = new Date().toISOString().split("T")[0];
 
